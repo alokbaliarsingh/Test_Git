@@ -1,4 +1,4 @@
-Thoughtspot MOR Procedure Name --> [SP_LoadData_MOR_ThoughtSpot]
+Thoughtspot MOR CrossKPI Dynamic Procedure Name --> [SP_LoadData_MOR_ThoughtSpot]
 Changes whenever there is a column added or deleted
 Below changes to be done with metrics sorted in ascending order
 1) @Metrics_Columns - insert the new metrics in sorted order
