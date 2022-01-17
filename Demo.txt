@@ -1,0 +1,8 @@
+Procedure Name --> [SP_LoadData_MOR_ThoughtSpot]
+Changes whenever there is a column added or deleted
+Below changes to be done with metrics sorted in ascending order
+1) @Metrics_Columns - insert the new metrics in sorted order
+2) Include the new columns in sorted order in #TEMP
+3) Include the new columns in sorted order in the pivot calling routine Xl_Add_in_gather_several_1_click_pivot
+4) Include the new columns in sorted order in [TEMP_MOR_SecureLY]
+5) in case these metrics might miss, need to include the PH under session "Insert place holders for LY secure numbers"
